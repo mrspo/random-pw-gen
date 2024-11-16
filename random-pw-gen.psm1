@@ -38,7 +38,7 @@ Function New-RandomPassword
     
     param(
         [Parameter(Mandatory=$false)]
-        [ValidateRange(12,40)]
+        [ValidateRange(1,100)]
         [int]$PasswordLength = 20,
 
         [Parameter(Mandatory=$false)]
